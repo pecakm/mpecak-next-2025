@@ -1,11 +1,14 @@
 'use client';
 
-import { Container } from './header.styled';
+import { Container, Button } from './header.styled';
 
 export default function Header() {
   return (
     <Container>
       Header
+      <Button variant="contained">
+        Test
+      </Button>
     </Container>
   );
 }
