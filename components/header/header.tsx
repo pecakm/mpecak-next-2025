@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <Container>
       Header
-      <Button variant="contained">
+      <Button>
         Test
       </Button>
     </Container>
