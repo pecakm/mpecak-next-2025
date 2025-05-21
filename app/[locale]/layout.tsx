@@ -10,6 +10,7 @@ import '@/styles/globals.css';
 import { StyledComponentsRegistry } from '@/lib/styled-components';
 import { theme } from '@/lib/mui';
 import { Header } from '@/components';
+import { Footer } from '@/components';
 import { routing } from '@/i18n';
 
 import { Props } from './layout.types';
@@ -40,6 +41,7 @@ export default async function RootLayout({ children, params }: Props) {
               <ThemeProvider theme={theme}>
                 <Header />
                 {children}
+                <Footer />
               </ThemeProvider>
             </AppRouterCacheProvider>
           </StyledComponentsRegistry>
