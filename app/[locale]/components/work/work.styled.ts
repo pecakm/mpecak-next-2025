@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 
-import { ContainerWidth, Color } from '@/styles';
+import { ContainerWidth, Color, Breakpoint } from '@/styles';
 
 export const Container = styled.section`
   padding: 3rem 1rem;
   background-color: ${Color.Border};
+
+  ${Breakpoint.Desktop} {
+    padding: 6rem 2rem;
+  }
 `;
 
 export const Wrapper = styled.div`
