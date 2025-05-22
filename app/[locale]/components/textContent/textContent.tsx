@@ -2,6 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 
+import { Links } from '@/constants';
+
 import {
   Container,
   Title,
@@ -26,7 +28,7 @@ export default function TextContent() {
           bold: (chunks) => <Bold>{chunks}</Bold>,
           linkedin: (chunks) => (
             <ExternalLink
-              href="https://pl.linkedin.com/in/mikołaj-pęcak-1649a612b"
+              href={Links.LinkedIn}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -35,7 +37,7 @@ export default function TextContent() {
           ),
           itpulse: (chunks) => (
             <ExternalLink
-              href="https://itpulse.pl"
+              href={Links.ITPulse}
               target="_blank"
               rel="noopener noreferrer"
             >

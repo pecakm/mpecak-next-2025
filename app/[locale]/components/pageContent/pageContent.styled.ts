@@ -1,13 +1,19 @@
 import styled from 'styled-components';
 
-import { Breakpoint } from '@/styles';
+import { Breakpoint, ContainerWidth } from '@/styles';
 
 export const Container = styled.main`
-  padding: 3rem 1rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  max-width: 1240px;
+`;
+
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 1rem;
+  max-width: ${ContainerWidth};
   margin: 0 auto;
 
   ${Breakpoint.Tablet} {
@@ -16,6 +22,6 @@ export const Container = styled.main`
   }
 
   ${Breakpoint.Desktop} {
-    padding: 6rem 1.5rem;
+    padding: 6rem 2rem;
   }
 `;

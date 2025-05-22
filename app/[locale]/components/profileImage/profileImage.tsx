@@ -9,7 +9,9 @@ export default function ProfileImage() {
       <Image
         src={Profile}
         alt="Mikołaj Pęcak"
-        fill
+        priority
+        width={350}
+        height={350}
       />
     </Container>
   );

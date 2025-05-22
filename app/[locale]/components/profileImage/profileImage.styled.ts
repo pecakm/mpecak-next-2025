@@ -18,4 +18,7 @@ export const Container = styled.div`
 export const Image = styled(ImageNext)`
   object-fit: cover;
   object-position: top center;
+  display: block;
+  width: 100%;
+  height: auto;
 `;

@@ -2,14 +2,18 @@
 
 import TextContent from '../textContent/textContent';
 import ProfileImage from '../profileImage/profileImage';
+import Work from '../work/work';
 
-import { Container } from './pageContent.styled';
+import { Container, Content } from './pageContent.styled';
 
 export default function PageContent() {
   return (
     <Container>
-      <ProfileImage />
-      <TextContent />
+      <Content>
+        <ProfileImage />
+        <TextContent />
+      </Content>
+      <Work />
     </Container>
   );
 }
