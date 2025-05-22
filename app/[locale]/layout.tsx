@@ -9,8 +9,7 @@ import '@/styles/globals.css';
 
 import { StyledComponentsRegistry } from '@/lib/styled-components';
 import { theme } from '@/lib/mui';
-import { Header } from '@/components';
-import { Footer } from '@/components';
+import { Header, Footer, BgAnim } from '@/components';
 import { routing } from '@/i18n';
 
 import { Props } from './layout.types';
@@ -39,6 +38,7 @@ export default async function RootLayout({ children, params }: Props) {
           <StyledComponentsRegistry>
             <AppRouterCacheProvider>
               <ThemeProvider theme={theme}>
+                <BgAnim />
                 <Header />
                 {children}
                 <Footer />
