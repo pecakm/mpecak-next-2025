@@ -1,23 +1,19 @@
 'use client';
 
 import { Container, Bg, Svg, Circle1, Circle2 } from './bgAnim.styled';
+import {
+  backgroundAnim,
+  circle1Anim,
+  circle2Anim,
+  baseTransition,
+} from './bgAnim.settings';
 
 export default function BgAnim() {
   return (
     <Container>
       <Bg
-        animate={{
-          background: [
-            'radial-gradient(circle, rgba(144, 202, 249, 0.1) 0%, rgba(66, 73, 88, 0.1) 100%)',
-            'radial-gradient(circle, rgba(144, 202, 249, 0.15) 0%, rgba(66, 73, 88, 0.15) 100%)',
-            'radial-gradient(circle, rgba(144, 202, 249, 0.1) 0%, rgba(66, 73, 88, 0.1) 100%)',
-          ],
-        }}
-        transition={{
-          duration: 8,
-          repeat: Number.POSITIVE_INFINITY,
-          repeatType: 'reverse',
-        }}
+        animate={backgroundAnim}
+        transition={baseTransition}
       />
       <Svg>
         <Circle1
@@ -28,15 +24,8 @@ export default function BgAnim() {
           stroke="currentColor"
           strokeWidth="0.5"
           strokeOpacity="0.2"
-          animate={{
-            r: ['30%', '32%', '30%'],
-            strokeOpacity: [0.2, 0.3, 0.2],
-          }}
-          transition={{
-            duration: 8,
-            repeat: Number.POSITIVE_INFINITY,
-            repeatType: 'reverse',
-          }}
+          animate={circle1Anim}
+          transition={baseTransition}
         />
         <Circle2
           cx="50%"
@@ -46,14 +35,9 @@ export default function BgAnim() {
           stroke="currentColor"
           strokeWidth="0.5"
           strokeOpacity="0.15"
-          animate={{
-            r: ['40%', '42%', '40%'],
-            strokeOpacity: [0.15, 0.25, 0.15],
-          }}
+          animate={circle2Anim}
           transition={{
-            duration: 8,
-            repeat: Number.POSITIVE_INFINITY,
-            repeatType: 'reverse',
+            ...baseTransition,
             delay: 1,
           }}
         />
