@@ -20,6 +20,7 @@ export const Highlight = styled.span`
 export const Text = styled.p`
   color: ${Color.MutedForeground};
   margin-top: 1rem;
+  line-height: 1.4;
 `;
 
 export const Bold = styled.span`

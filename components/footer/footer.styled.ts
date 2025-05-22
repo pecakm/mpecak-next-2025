@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
-import { ContainerWidth, Breakpoint, Color } from '@/styles';
+import { Breakpoint, Color, ContainerStyles } from '@/styles';
 
 export const Container = styled.footer`
+  ${ContainerStyles}
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  max-width: ${ContainerWidth};
-  padding: 1.5rem 1rem;
-  margin: 0 auto;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: auto;
 
   ${Breakpoint.Tablet} {
     flex-direction: row;
@@ -17,7 +18,8 @@ export const Container = styled.footer`
   }
 
   ${Breakpoint.Desktop} {
-    padding: 3rem 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 `;
 
