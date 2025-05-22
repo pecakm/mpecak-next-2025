@@ -3,27 +3,21 @@
 import { useTranslations } from 'next-intl';
 
 import { Links } from '@/constants';
+import { ExternalLink, PageTitle } from '@/components';
 
-import {
-  Container,
-  Title,
-  Highlight,
-  Text,
-  ExternalLink,
-  Bold,
-} from './textContent.styled';
+import { Container, Highlight, StyledText, Bold } from './textContent.styled';
 
 export default function TextContent() {
-  const t = useTranslations('homePage');
+  const t = useTranslations('homePage.textContent');
 
   return (
     <Container>
-      <Title>
+      <PageTitle>
         {t.rich('title', {
           highlight: (chunks) => <Highlight>{chunks}</Highlight>,
         })}
-      </Title>
-      <Text>
+      </PageTitle>
+      <StyledText>
         {t.rich('text', {
           bold: (chunks) => <Bold>{chunks}</Bold>,
           linkedin: (chunks) => (
@@ -45,7 +39,7 @@ export default function TextContent() {
             </ExternalLink>
           ),
         })}
-      </Text>
+      </StyledText>
     </Container>
   );
 }

@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 import { Breakpoint, Color, ContainerStyles } from '@/styles';
 
+import { TextSmall } from '../common.styled';
+
 export const Container = styled.footer`
   ${ContainerStyles}
   display: flex;
@@ -10,6 +12,7 @@ export const Container = styled.footer`
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   margin-top: auto;
+  border-top: 1px solid ${Color.Border};
 
   ${Breakpoint.Tablet} {
     flex-direction: row;
@@ -23,12 +26,10 @@ export const Container = styled.footer`
   }
 `;
 
-export const Text = styled.p`
+export const Text = styled(TextSmall)`
   text-align: center;
   display: flex;
   flex-direction: column;
-  color: ${Color.MutedForeground};
-  font-size: 0.875rem;
 
   ${Breakpoint.Mobile} {
     flex-direction: row;
@@ -81,14 +82,4 @@ export const SocialLink = styled.a`
   justify-content: center;
   width: 2.5rem;
   height: 2.5rem;
-`;
-
-export const ExternalLink = styled.a`
-  color: ${Color.Primary};
-  font-weight: 700;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 `;

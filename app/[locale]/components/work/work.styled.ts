@@ -20,11 +20,3 @@ export const Wrapper = styled.div`
     padding-bottom: 6rem;
   }
 `;
-
-export const Title = styled.h2`
-  font-size: 2rem;
-`;
-
-export const Text = styled.p`
-  color: ${Color.MutedForeground};
-`;

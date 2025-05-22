@@ -2,7 +2,9 @@
 
 import { useTranslations } from 'next-intl';
 
-import { Container, Wrapper, Title, Text } from './work.styled';
+import { SectionTitle, Text } from '@/components';
+
+import { Container, Wrapper } from './work.styled';
 
 export default function Work() {
   const t = useTranslations('homePage.work');
@@ -10,7 +12,7 @@ export default function Work() {
   return (
     <Container>
       <Wrapper>
-        <Title>{t('title')}</Title>
+        <SectionTitle>{t('title')}</SectionTitle>
         <Text>{t('text')}</Text>
       </Wrapper>
     </Container>

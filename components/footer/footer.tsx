@@ -5,6 +5,8 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 import { Links } from '@/constants';
 
+import { ExternalLink } from '../common.styled';
+
 import {
   Container,
   Text,
@@ -12,7 +14,6 @@ import {
   SocialLinks,
   SocialLink,
   Quote,
-  ExternalLink,
   Copyright,
 } from './footer.styled';
 
