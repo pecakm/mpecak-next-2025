@@ -1,15 +1,18 @@
 import ImageNext from 'next/image';
 import styled from 'styled-components';
 
-import { Color } from '@/enums';
+import { Color } from '@/styles';
 
 export const Container = styled.div`
-  width: 350px;
-  height: 350px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-width: 350px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
   border: 8px solid ${Color.Border};
+  flex-shrink: 0;
+  margin: 0 auto;
 `;
 
 export const Image = styled(ImageNext)`

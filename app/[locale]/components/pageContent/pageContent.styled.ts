@@ -1,6 +1,21 @@
-import ImageNext from 'next/image';
 import styled from 'styled-components';
 
-export const Container = styled.main``;
+import { Breakpoint } from '@/styles';
 
-export const Image = styled(ImageNext)``;
+export const Container = styled.main`
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1240px;
+  margin: 0 auto;
+
+  ${Breakpoint.Tablet} {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  ${Breakpoint.Desktop} {
+    padding: 6rem 1.5rem;
+  }
+`;

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Geist } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { ThemeProvider } from '@mui/material/styles';
@@ -15,8 +15,8 @@ import { routing } from '@/i18n';
 
 import { Props } from './layout.types';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const inter = Inter({
+  variable: '--font-inter',
   subsets: ['latin'],
 });
 
@@ -34,7 +34,7 @@ export default async function RootLayout({ children, params }: Props) {
   
   return (
     <html lang={locale}>
-      <body className={geistSans.className}>
+      <body className={inter.className}>
         <NextIntlClientProvider>
           <StyledComponentsRegistry>
             <AppRouterCacheProvider>
