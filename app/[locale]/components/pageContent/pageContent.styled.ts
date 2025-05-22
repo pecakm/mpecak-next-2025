@@ -12,6 +12,7 @@ export const Content = styled.div`
   flex-direction: column;
   gap: 2rem;
   padding: 3rem 1rem;
+  width: 100%;
   max-width: ${ContainerWidth};
   margin: 0 auto;
 
