@@ -13,16 +13,16 @@ export default function Education() {
   return (
     <Container>
       {educationData.map((education) => (
-        <Item key={education.field}>
+        <Item key={t(education.fieldKey)}>
           <Header>
-            <ArticleTitle>{education.field}</ArticleTitle>
-            <TextSmall>{education.institution} | <NoWrap>{education.date}</NoWrap></TextSmall>
+            <ArticleTitle>{t(education.fieldKey)}</ArticleTitle>
+            <TextSmall>{t(education.institutionKey)} | <NoWrap>{education.date}</NoWrap></TextSmall>
           </Header>
           <Text>
             {t('specialization')}<br />
-            {education.specialization}
+            {t(education.specializationKey)}
           </Text>
-          <Text>{t('degree')} {education.degree}</Text>
+          <Text>{t('degree')} {t(education.degreeKey)}</Text>
         </Item>
       ))}
     </Container>

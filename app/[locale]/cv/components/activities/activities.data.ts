@@ -2,16 +2,16 @@ export const activitiesData = [
   {
     institution: 'Collegium Da Vinci',
     date: '2018 - 2020',
-    info: 'Członek komisji dyscyplinarnej CDV'
+    infoKey: 'cdv1'
   },
   {
     institution: 'Collegium Da Vinci',
     date: '2017',
-    info: 'Pomoc przy tworzeniu start-upowego projektu aplikacji internetowej z wykorzystaniem technologii Ruby on Rails oraz Angular2'
+    infoKey: 'cdv2'
   },
   {
     institution: 'Automobilklub Leszczyński',
     date: '2002 - 2016',
-    info: 'Członek Automobilklubu Leszczyńskiego, członek Kadry Narodowej w Sporcie Kartingowym w latach 2005 - 2010'
+    infoKey: 'al'
   },
 ];

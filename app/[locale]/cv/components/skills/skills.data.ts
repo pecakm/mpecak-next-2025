@@ -1,6 +1,6 @@
 export const skillsData = [
   {
-    title: 'Frontend',
+    titleKey: 'frontend',
     items: [
       'HTML',
       'CSS/SCSS',
@@ -22,7 +22,7 @@ export const skillsData = [
     ],
   },
   {
-    title: 'Backend - podstawy',
+    titleKey: 'backend',
     items: [
       'Node.js',
       'Express',
@@ -35,7 +35,7 @@ export const skillsData = [
     ],
   },
   {
-    title: 'Narzędzia',
+    titleKey: 'tools',
     items: [
       'Git',
       'Figma',

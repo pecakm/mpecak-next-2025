@@ -1,7 +1,7 @@
 export const interestsData = [
-  'Motorsport',
-  'Karting',
-  'Formuła 1',
-  'Wyścigi samochodowe',
-  'Żużel',
+  'motorsport',
+  'karting',
+  'f1',
+  'cars',
+  'speedway',
 ];

@@ -13,9 +13,9 @@ export default function Languages() {
   return (
     <Container>
       {languagesData.map((language) => (
-        <Item key={language.language}>
-          <ArticleTitle>{language.language}</ArticleTitle>
-          <TextSmall>{t('level')} {language.level}</TextSmall>
+        <Item key={language.languageKey}>
+          <ArticleTitle>{t(language.languageKey)}</ArticleTitle>
+          <TextSmall>{t('level')} {t(language.levelKey)}</TextSmall>
         </Item>
       ))}
     </Container>

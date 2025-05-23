@@ -1,10 +1,10 @@
 export const languagesData = [
   {
-    language: 'Język polski',
-    level: 'Ojczysty',
+    languageKey: 'polish',
+    levelKey: 'native',
   },
   {
-    language: 'Język angielski',
-    level: 'B2',
+    languageKey: 'english',
+    levelKey: 'b2',
   },
 ];
