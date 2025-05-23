@@ -1,6 +1,6 @@
 'use client';
 
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { Button } from '@mui/material';
 
 import { Color } from '@/styles';
@@ -53,6 +53,41 @@ export const HeaderButton = styled(Button)`
     height: 2.5rem;
     min-width: 0;
     font-size: 16px;
+
+    &:hover {
+      background-color: ${Color.Border};
+    }
+  }
+`;
+
+const buttonStyles = css`
+  height: 2.5rem;
+  padding: 0 1rem;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 0.25rem;
+  gap: 1rem;
+  text-transform: none;
+`;
+
+export const PrimaryButton = styled(Button)`
+  && {
+    ${buttonStyles}
+    background-color: ${Color.Primary};
+    color: ${Color.PrimaryForeground};
+
+    &:hover {
+      background-color: ${Color.PrimaryHover};
+    }
+  }
+`;
+
+export const SecondaryButton = styled(Button)`
+  && {
+    ${buttonStyles}
+    background-color: ${Color.Background};
+    color: ${Color.Foreground};
+    border: 1px solid ${Color.Border};
 
     &:hover {
       background-color: ${Color.Border};

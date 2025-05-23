@@ -1,11 +1,14 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { ArrowRight } from 'lucide-react';
 
 import { Links } from '@/constants';
-import { ExternalLink, PageTitle } from '@/components';
+import { ExternalLink, PageTitle, PrimaryButton, SecondaryButton } from '@/components';
+import { Path } from '@/enums';
 
-import { Container, Highlight, StyledText, Bold } from './textContent.styled';
+import { Container, Highlight, StyledText, Bold, Buttons } from './textContent.styled';
 
 export default function TextContent() {
   const t = useTranslations('homePage.textContent');
@@ -40,6 +43,19 @@ export default function TextContent() {
           ),
         })}
       </StyledText>
+      <Buttons>
+        <Link href={Path.Contact}>
+          <PrimaryButton>
+            {t('contact')}
+            <ArrowRight size={16} />
+          </PrimaryButton>
+        </Link>
+        <Link href={Path.CV}>
+          <SecondaryButton>
+            {t('cv')}
+          </SecondaryButton>
+        </Link>
+      </Buttons>
     </Container>
   );
 }

@@ -21,3 +21,10 @@ export const Bold = styled.span`
   font-weight: 700;
   color: ${Color.Foreground};
 `;
+
+export const Buttons = styled.div`
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+`;
