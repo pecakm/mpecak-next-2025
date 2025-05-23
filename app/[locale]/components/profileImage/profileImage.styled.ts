@@ -1,7 +1,7 @@
 import ImageNext from 'next/image';
 import styled from 'styled-components';
 
-import { Color } from '@/styles';
+import { Breakpoint, Color } from '@/styles';
 
 export const Container = styled.div`
   width: 100%;
@@ -13,6 +13,10 @@ export const Container = styled.div`
   border: 8px solid ${Color.Border};
   flex-shrink: 0;
   margin: 0 auto;
+
+  ${Breakpoint.Desktop} {
+    max-width: 400px;
+  }
 `;
 
 export const Image = styled(ImageNext)`

@@ -10,8 +10,8 @@ export default function ProfileImage() {
         src={Profile}
         alt="Mikołaj Pęcak"
         priority
-        width={350}
-        height={350}
+        width={400}
+        height={400}
       />
     </Container>
   );

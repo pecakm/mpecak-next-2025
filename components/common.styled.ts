@@ -3,11 +3,15 @@
 import styled, { css } from 'styled-components';
 import { Button } from '@mui/material';
 
-import { Color } from '@/styles';
+import { Breakpoint, Color } from '@/styles';
 
 export const PageTitle = styled.h1`
   font-size: 2rem;
   font-weight: 700;
+
+  ${Breakpoint.Desktop} {
+    font-size: 3rem;
+  }
 `;
 
 export const SectionTitle = styled.h2`
