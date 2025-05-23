@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { ArrowRight } from 'lucide-react';
 
 import { PageTitle, Text } from '@/components';
 
@@ -12,7 +13,7 @@ import Activities from '../activities/activities';
 import Interests from '../interests/interests';
 import Section from '../section/section';
 
-import { Container, Header } from './pageContent.styled';
+import { Container, Header, StyledButton } from './pageContent.styled';
 
 export default function PageContent() {
   const t = useTranslations('cvPage.pageContent');
@@ -41,6 +42,10 @@ export default function PageContent() {
       <Section title={t('interests')}>
         <Interests />
       </Section>
+      <StyledButton>
+        {t('contact')}
+        <ArrowRight size={16} />
+      </StyledButton>
     </Container>
   );
 }
