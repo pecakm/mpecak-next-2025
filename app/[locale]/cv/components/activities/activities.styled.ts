@@ -11,6 +11,7 @@ export const Container = styled.div`
 
 export const Item = styled.article`
   ${ItemStyles}
+  flex: 1;
 `;
 
 export const Text = styled(TextBase)`
