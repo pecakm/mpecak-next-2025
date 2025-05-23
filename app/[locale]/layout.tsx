@@ -9,7 +9,7 @@ import '@/styles/globals.css';
 
 import { StyledComponentsRegistry } from '@/lib/styled-components';
 import { theme } from '@/lib/mui';
-import { Header, Footer, BgAnim } from '@/components';
+import { Header, Footer, BgAnim, PageTransition } from '@/components';
 import { routing } from '@/i18n';
 
 import { Props } from './layout.types';
@@ -40,7 +40,9 @@ export default async function RootLayout({ children, params }: Props) {
               <ThemeProvider theme={theme}>
                 <BgAnim />
                 <Header />
-                {children}
+                <PageTransition>
+                  {children}
+                </PageTransition>
                 <Footer />
               </ThemeProvider>
             </AppRouterCacheProvider>
