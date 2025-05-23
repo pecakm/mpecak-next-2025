@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import { Button } from '@mui/material';
 
 import { Color } from '@/styles';
 
@@ -40,4 +41,21 @@ export const ExternalLink = styled.a`
 
 export const NoWrap = styled.span`
   white-space: nowrap;
+`;
+
+export const HeaderButton = styled(Button)`
+  && {
+    border: 1px solid ${Color.Border};
+    background-color: ${Color.Background};
+    border-radius: calc(0.5rem - 2px);
+    color: ${Color.Foreground};
+    width: 2.5rem;
+    height: 2.5rem;
+    min-width: 0;
+    font-size: 16px;
+
+    &:hover {
+      background-color: ${Color.Border};
+    }
+  }
 `;

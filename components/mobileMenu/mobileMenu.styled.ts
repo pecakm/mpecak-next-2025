@@ -1,28 +1,18 @@
 import LinkNext from 'next/link';
 import styled, { css } from 'styled-components';
-import { Drawer, Button } from '@mui/material';
+import { Drawer as DrawerMUI, Button } from '@mui/material';
 
-import { Color } from '@/styles';
+import { Breakpoint, Color } from '@/styles';
 
 import { LinkProps } from './mobileMenu.types';
 
-export const MenuButton = styled(Button)`
-  && {
-    border: 1px solid ${Color.Border};
-    background-color: ${Color.Background};
-    border-radius: calc(0.5rem - 2px);
-    color: ${Color.Foreground};
-    width: 2.5rem;
-    height: 2.5rem;
-    min-width: 0;
-
-    &:hover {
-      background-color: ${Color.Border};
-    }
+export const Container = styled.nav`
+  ${Breakpoint.Mobile} {
+    display: none;
   }
 `;
 
-export const Container = styled(Drawer)`
+export const Drawer = styled(DrawerMUI)`
   .MuiDrawer-paper {
     background-color: ${Color.Background};
     padding: 3.5rem 1.5rem;

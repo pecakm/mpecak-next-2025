@@ -7,10 +7,12 @@ import { useTranslations } from 'next-intl';
 import { usePathname } from '@/i18n';
 import { Path } from '@/enums';
 
-import { Container, MenuButton, CloseButton, List, ListItem, Link } from './mobileMenu.styled';
+import { HeaderButton } from '../common.styled';
+
+import { Container, Drawer, CloseButton, List, ListItem, Link } from './mobileMenu.styled';
 
 export default function MobileMenu() {
-  const t = useTranslations('components.mobileMenu');
+  const t = useTranslations('components.menu');
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
@@ -19,11 +21,11 @@ export default function MobileMenu() {
   };
 
   return (
-    <>
-      <MenuButton onClick={() => setOpen(true)}>
+    <Container>
+      <HeaderButton onClick={() => setOpen(true)}>
         <Menu size={16} />
-      </MenuButton>
-      <Container open={open} onClose={onClose} anchor="right">
+      </HeaderButton>
+      <Drawer open={open} onClose={onClose} anchor="right">
         <CloseButton onClick={onClose}>
           <X size={16} />
         </CloseButton>
@@ -56,7 +58,7 @@ export default function MobileMenu() {
               </Link>
             </ListItem>
         </List>
-      </Container>
-    </>
+      </Drawer>
+    </Container>
   );
 }

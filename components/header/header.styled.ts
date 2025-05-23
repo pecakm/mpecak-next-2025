@@ -31,3 +31,9 @@ export const Title = styled(Link)`
 export const Highlight = styled.span`
   color: ${Color.Primary};
 `;
+
+export const RightSection = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+`;

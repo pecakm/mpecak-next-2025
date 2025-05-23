@@ -10,6 +10,11 @@ export const Container = styled.main`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  ${Breakpoint.Desktop} {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 `;
 
 export const Content = styled.div``;

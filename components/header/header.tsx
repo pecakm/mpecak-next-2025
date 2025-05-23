@@ -3,9 +3,9 @@
 import { useTranslations } from 'next-intl';
 
 import { Path } from '@/enums';
-import { MobileMenu } from '@/components';
+import { LanguageButton, MobileMenu, DesktopMenu } from '@/components';
 
-import { Container, Title, Highlight } from './header.styled';
+import { Container, Title, Highlight, RightSection } from './header.styled';
 
 export default function Header() {
   const t = useTranslations('components.header');
@@ -17,7 +17,11 @@ export default function Header() {
           highlight: (chunks) => <Highlight>{chunks}</Highlight>
         })}
       </Title>
-      <MobileMenu />
+      <DesktopMenu />
+      <RightSection>
+        <LanguageButton />
+        <MobileMenu />
+      </RightSection>
     </Container>
   );
 }
