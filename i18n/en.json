@@ -1,6 +1,125 @@
 {
   "homePage": {
-    "title": "Mikołaj Pęcak",
-    "description": "Programming with passion"
+    "textContent": {
+      "title": "Hi, I'm\n<highlight>Mikołaj Pęcak</highlight>",
+      "text": "I'm a programmer with 7 years of commercial experience. I primarily develop in the direction of <bold>creating frontend layers of web applications</bold> and mobile apps. I passionately pursue my interests while being the owner of my own brand <itpulse>IT Pulse</itpulse>, under which I establish freelance collaborations and more.\n\nThanks to my work ethic and determination acquired during many years of sports career, I make rapid progress <bold>in every activity I undertake</bold>. By achieving the milestones I set for myself, I become a better programmer and a <bold>trustworthy entrepreneur</bold> with each passing day. I believe that hard work pays off, and small steps lead to spectacular results.\n\nFeel free to get to know me on this website and on my <linkedin>LinkedIn</linkedin> profile."
+    },
+    "work": {
+      "title": "Collaboration",
+      "text": "I am currently available for freelance work or other forms of collaboration"
+    },
+    "buttons": {
+      "contact": "Get in touch",
+      "cv": "View CV"
+    }
+  },
+  "cvPage": {
+    "pageContent": {
+      "title": "Curriculum Vitae",
+      "description": "Overview of my professional experience, skills, and education.",
+      "experience": "Experience",
+      "skills": "Skills",
+      "languages": "Languages",
+      "education": "Education",
+      "activities": "Activities",
+      "interests": "Interests",
+      "contact": "Let's stay in touch"
+    },
+    "experience": {
+      "mugTitle": "Frontend Developer",
+      "mugCompany": "MUG Software Sp. z o.o.",
+      "mugDate": "February 2019 - March 2025",
+      "mugDescription": "- Designing and implementing responsive user interfaces using React library\n- Collaborating with backend team on REST API integration and data flow optimization\n- Creating UI components using TypeScript, styled-components, and libraries such as Material UI\n- Maintaining high code quality through code review\n- Active participation in sprint planning, estimations, and team process improvements\n- Co-creating design systems\n- Mentoring junior team members and participating in recruitment",
+      "moodUpTitle": "Junior iOS Developer",
+      "moodUpCompany": "Mood Up Sp. z o.o.",
+      "moodUpDate": "June 2017 - September 2018",
+      "moodUpDescription": "Creating and developing mobile applications for iOS devices",
+      "amoTitle": "Race Engineer",
+      "amoCompany": "AMO Racing Team",
+      "amoDate": "May 2013 - October 2016",
+      "amoDescription": "- Working with young athletes in karting sports\n- Mechanic\n- Trainer\n- Telemetry analyst",
+      "itpulseTitle": "Freelancer",
+      "itpulseCompany": "IT Pulse (self-employed)",
+      "itpulseDate": "May 2018 - present",
+      "itpulseDescription": "Creating solutions using web technology for both frontend and backend",
+      "ekTitle": "E-commerce Assistant",
+      "ekCompany": "Eurokarting S.C.",
+      "ekDate": "December 2015 - January 2016",
+      "ekDescription": "Entering company inventory into the online store and assisting with inventory management",
+      "ibTitle": "Student Intern",
+      "ibCompany": "Interbell Sp. z o.o.",
+      "ibDate": "June 2013 - July 2013",
+      "ibDescription": "- Customer service in mobile phone repair\n- Assistance in the accounting department\n- Managing company's Facebook profile"
+    },
+    "activities": {
+      "cdv1": "Member of CDV disciplinary committee",
+      "cdv2": "Assistance in creating a startup web application project using Ruby on Rails and Angular2 technologies",
+      "al": "- Member of Automobilklub Leszczyński\n- Member of the National Karting Team from 2005 to 2010"
+    },
+    "education": {
+      "specialization": "Specialization:",
+      "degree": "Degree:",
+      "cdvInstitution": "Collegium Da Vinci",
+      "uepInstitution": "Poznań University of Economics",
+      "cdvField": "Computer Science",
+      "uepField": "Management",
+      "cdvSpecialization": "Web and Mobile Applications",
+      "uepSpecialization": "Business Management",
+      "cdvDegree": "Engineer",
+      "uepDegree": "Bachelor"
+    },
+    "languages": {
+      "level": "Level:",
+      "polish": "Polish",
+      "native": "Native",
+      "english": "English",
+      "b2": "B2"
+    },
+    "interests": {
+      "motorsport": "Motorsport",
+      "karting": "Karting",
+      "f1": "Formula 1",
+      "cars": "Car Racing",
+      "speedway": "Speedway"
+    },
+    "skills": {
+      "frontend": "Frontend",
+      "backend": "Backend - basics",
+      "tools": "Tools"
+    }
+  },
+  "contactPage": {
+    "pageContent": {
+      "title": "Contact",
+      "text": "Get in touch with me about collaboration or just to say hello 👋",
+      "info": {
+        "title": "Info",
+        "text": "Contact me directly"
+      },
+      "social": {
+        "title": "Social media",
+        "text": "Reach out to me through social media"
+      }
+    },
+    "infoItem": {
+      "email": "Email",
+      "phone": "Phone",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "components": {
+    "header": {
+      "title": "<highlight>Mikołaj</highlight> Pęcak"
+    },
+    "menu": {
+      "about": "About",
+      "cv": "CV",
+      "contact": "Contact"
+    },
+    "footer": {
+      "copyright": "Copyright © <itpulse>IT Pulse</itpulse> 2025",
+      "quote": "There is no place like 127.0.0.1 :)"
+    }
   }
 }
