@@ -1,6 +1,8 @@
 import { defineRouting } from 'next-intl/routing';
+
+import { CountryCode } from '@/enums';
  
 export const routing = defineRouting({
-  locales: ['pl', 'en'],
-  defaultLocale: 'pl'
+  locales: [CountryCode.PL, CountryCode.EN],
+  defaultLocale: CountryCode.PL,
 });
