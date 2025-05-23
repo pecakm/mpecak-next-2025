@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 
 import { SectionTitle, Text } from '@/components';
 
-import { Container, Wrapper } from './work.styled';
+import { Container, Wrapper, StyledButtons } from './work.styled';
 
 export default function Work() {
   const t = useTranslations('homePage.work');
@@ -14,6 +14,7 @@ export default function Work() {
       <Wrapper>
         <SectionTitle>{t('title')}</SectionTitle>
         <Text>{t('text')}</Text>
+        <StyledButtons />
       </Wrapper>
     </Container>
   );

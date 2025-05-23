@@ -5,10 +5,14 @@ import { useTranslations } from 'next-intl';
 import { Links } from '@/constants';
 import { ExternalLink, PageTitle } from '@/components';
 
-import Buttons from '../buttons/buttons';
-import SocialLinks from '../socialLinks/socialLinks';
-
-import { Container, Highlight, StyledText, Bold } from './textContent.styled';
+import {
+  Container,
+  Highlight,
+  StyledText,
+  Bold,
+  StyledButtons,
+  StyledSocialLinks,
+} from './textContent.styled';
 
 export default function TextContent() {
   const t = useTranslations('homePage.textContent');
@@ -43,8 +47,8 @@ export default function TextContent() {
           ),
         })}
       </StyledText>
-      <Buttons />
-      <SocialLinks />
+      <StyledButtons />
+      <StyledSocialLinks />
     </Container>
   );
 }

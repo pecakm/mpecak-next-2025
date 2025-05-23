@@ -6,10 +6,11 @@ import { SocialLink } from '@/components';
 import { Links } from '@/constants';
 
 import { Container } from './socialLinks.styled';
+import { Props } from './socialLinks.types';
 
-export default function SocialLinks() {
+export default function SocialLinks({ className }: Props) {
   return (
-    <Container>
+    <Container className={className}>
       <SocialLink href={Links.GitHub} target="_blank" rel="noopener noreferrer">
         <Github size={16} />
       </SocialLink>
