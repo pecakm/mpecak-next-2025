@@ -1,4 +1,4 @@
-export const interestsData: string[] = [
+export const interestsData = [
   'Motorsport',
   'Karting',
   'Formuła 1',

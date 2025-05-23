@@ -1,6 +1,4 @@
-import { ActivityData } from './activities.types';
-
-export const activitiesData: ActivityData[] = [
+export const activitiesData = [
   {
     institution: 'Collegium Da Vinci',
     date: '2018 - 2020',

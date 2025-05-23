@@ -1,6 +1,4 @@
-import { LanguageData } from './languages.types';
-
-export const languagesData: LanguageData[] = [
+export const languagesData = [
   {
     language: 'Język polski',
     level: 'Ojczysty',

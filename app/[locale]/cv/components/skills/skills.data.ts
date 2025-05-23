@@ -1,16 +1,52 @@
-import { SkillData } from './skills.types';
-
-export const skillsData: SkillData[] = [
+export const skillsData = [
   {
     title: 'Frontend',
-    items: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'TypeScript'],
+    items: [
+      'HTML',
+      'CSS/SCSS',
+      'JavaScript',
+      'TypeScript',
+      'React',
+      'Next.js',
+      'Styled Components',
+      'Redux',
+      'Redux-Saga',
+      'Material UI',
+      'Mobile First',
+      'Responsive Design',
+      'React Hook Form',
+      'Zod',
+      'React Testing Library',
+      'CRA',
+      'Vite',
+    ],
   },
   {
-    title: 'Backend',
-    items: ['Node.js', 'Express', 'MongoDB'],
+    title: 'Backend - podstawy',
+    items: [
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Mongoose',
+      'Next.js API Routes',
+      'Socket.IO',
+      'Iron Session',
+      'JWT Token',
+    ],
   },
   {
     title: 'Narzędzia',
-    items: ['Git', 'GitHub', 'GitLab'],
+    items: [
+      'Git',
+      'Figma',
+      'Jira',
+      'Firebase',
+      'ESLint',
+      'i18n',
+      'GitHub',
+      'GitLab',
+      'Bitbucket',
+      'WordPress',
+    ],
   },
 ];

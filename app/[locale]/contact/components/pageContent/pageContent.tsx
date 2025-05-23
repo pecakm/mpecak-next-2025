@@ -2,10 +2,12 @@
 
 import { useTranslations } from 'next-intl';
 
+import { PageTitle } from '@/components';
+
 import { ContactInfo, SocialInfo } from '../../data';
 import Info from '../info/info';
 
-import { Container, Content, Title, Text, InfoContainer } from './pageContent.styled';
+import { Container, Content, Text, InfoContainer } from './pageContent.styled';
 
 export default function PageContent() {
   const t = useTranslations('contactPage.pageContent');
@@ -13,7 +15,7 @@ export default function PageContent() {
   return (
     <Container>
       <Content>
-        <Title>{t('title')}</Title>
+        <PageTitle>{t('title')}</PageTitle>
         <Text>{t('text')}</Text>
       </Content>
       <InfoContainer>

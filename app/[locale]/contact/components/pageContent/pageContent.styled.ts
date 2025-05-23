@@ -19,8 +19,6 @@ export const Container = styled.main`
 
 export const Content = styled.div``;
 
-export const Title = styled.h1``;
-
 export const Text = styled(TextBase)`
   margin-top: 0.5rem;
 `;

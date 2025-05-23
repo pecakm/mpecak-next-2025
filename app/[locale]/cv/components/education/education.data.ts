@@ -1,6 +1,4 @@
-import { EducationData } from './education.types';
-
-export const educationData: EducationData[] = [
+export const educationData = [
   {
     field: 'Informatyka',
     institution: 'Collegium Da Vinci',
