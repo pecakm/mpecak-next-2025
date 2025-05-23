@@ -1,8 +1,9 @@
 'use client';
 
-import { useLocale } from 'next-intl';
+// import { useLocale } from 'next-intl';
+import { useParams, useRouter, usePathname } from 'next/navigation';
 
-import { useRouter, usePathname } from '@/i18n';
+// import { useRouter, usePathname } from '@/i18n';
 import { CountryCode } from '@/enums';
 
 import { HeaderButton } from '../common.styled';
@@ -10,16 +11,19 @@ import { HeaderButton } from '../common.styled';
 export default function LanguageButton() {
   const router = useRouter();
   const pathname = usePathname();
-  const currentLocale = useLocale();
-  const nextLocale = currentLocale === CountryCode.PL ? CountryCode.EN : CountryCode.PL;
+  // const currentLocale = useLocale();
+  const { locale } = useParams();
+  const nextLocale = locale === CountryCode.PL ? CountryCode.EN : CountryCode.PL;
+  const nextPathname = pathname.replace(`/${locale}`, `/${nextLocale}`);
 
   const handleClick = () => {
-    router.replace(pathname, { locale: nextLocale });
+    router.replace(nextPathname);
+    // router.replace(pathname, { locale: nextLocale });
   };
 
   return (
     <HeaderButton onClick={handleClick}>
-      {currentLocale === CountryCode.PL ? '🇵🇱' : '🇬🇧'}
+      {locale === CountryCode.PL ? '🇵🇱' : '🇬🇧'}
     </HeaderButton>
   );
 }

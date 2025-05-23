@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useParams } from 'next/navigation';
 import { X, Menu } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
@@ -14,6 +15,7 @@ import { Container, Drawer, CloseButton, List, ListItem, Link } from './mobileMe
 export default function MobileMenu() {
   const t = useTranslations('components.menu');
   const pathname = usePathname();
+  const { locale } = useParams();
   const [open, setOpen] = useState(false);
 
   const onClose = () => {
@@ -33,7 +35,7 @@ export default function MobileMenu() {
           {MenuItems.map((item) => (
             <ListItem key={item.labelKey}>
               <Link
-                href={item.href}
+                href={`/${locale}${item.href}`}
                 $active={pathname === item.href}
                 onClick={onClose}
               >

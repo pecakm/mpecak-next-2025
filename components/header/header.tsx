@@ -1,5 +1,6 @@
 'use client';
 
+import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 
 import { Path } from '@/enums';
@@ -9,10 +10,11 @@ import { Container, Title, Highlight, RightSection } from './header.styled';
 
 export default function Header() {
   const t = useTranslations('components.header');
+  const { locale } = useParams();
 
   return (
     <Container>
-      <Title href={Path.Home}>
+      <Title href={`/${locale}${Path.Home}`}>
         {t.rich('title', {
           highlight: (chunks) => <Highlight>{chunks}</Highlight>
         })}
