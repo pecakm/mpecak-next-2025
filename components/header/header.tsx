@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 
 import { Path } from '@/enums';
+import { MobileMenu } from '@/components';
 
 import { Container, Title, Highlight } from './header.styled';
 
@@ -16,6 +17,7 @@ export default function Header() {
           highlight: (chunks) => <Highlight>{chunks}</Highlight>
         })}
       </Title>
+      <MobileMenu />
     </Container>
   );
 }

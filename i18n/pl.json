@@ -52,6 +52,11 @@
     "header": {
       "title": "<highlight>Mikołaj</highlight> Pęcak"
     },
+    "mobileMenu": {
+      "about": "O mnie",
+      "cv": "CV",
+      "contact": "Kontakt"
+    },
     "footer": {
       "copyright": "Copyright © <itpulse>IT Pulse</itpulse> 2025",
       "quote": "There is no place like 127.0.0.1 :)"

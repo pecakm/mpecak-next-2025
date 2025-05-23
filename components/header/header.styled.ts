@@ -7,14 +7,17 @@ export const Container = styled.header`
   position: sticky;
   top: 0;
   z-index: 100;
-  padding: 1.25rem 1rem;
+  padding: 0.75rem 1rem;
   border-bottom: 1px solid ${Color.Border};
   background: rgba(2, 8, 23, 0.6);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   ${Breakpoint.Desktop} {
-    padding: 1.25rem 2rem;
+    padding: 0.75rem 2rem;
   }
 `;
 
