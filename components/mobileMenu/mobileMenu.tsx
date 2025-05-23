@@ -5,7 +5,7 @@ import { X, Menu } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 import { usePathname } from '@/i18n';
-import { Path } from '@/enums';
+import { MenuItems } from '@/constants';
 
 import { HeaderButton } from '../common.styled';
 
@@ -30,33 +30,17 @@ export default function MobileMenu() {
           <X size={16} />
         </CloseButton>
         <List>
-            <ListItem>
+          {MenuItems.map((item) => (
+            <ListItem key={item.labelKey}>
               <Link
-                href={Path.Home}
-                $active={pathname === Path.Home}
+                href={item.href}
+                $active={pathname === item.href}
                 onClick={onClose}
               >
-                {t('about')}
+                {t(item.labelKey)}
               </Link>
             </ListItem>
-            <ListItem>
-              <Link
-                href={Path.CV}
-                $active={pathname === Path.CV}
-                onClick={onClose}
-              >
-                {t('cv')}
-              </Link>
-            </ListItem>
-            <ListItem>
-              <Link
-                href={Path.Contact}
-                $active={pathname === Path.Contact}
-                onClick={onClose}
-              >
-                {t('contact')}
-              </Link>
-            </ListItem>
+          ))}
         </List>
       </Drawer>
     </Container>

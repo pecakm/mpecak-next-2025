@@ -7,7 +7,7 @@ import { Breakpoint, Color } from '@/styles';
 import { LinkProps } from './mobileMenu.types';
 
 export const Container = styled.nav`
-  ${Breakpoint.Mobile} {
+  ${Breakpoint.Tablet} {
     display: none;
   }
 `;

@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 
-import { Path } from '@/enums';
+import { MenuItems } from '@/constants';
 
 import { Container, List, Item, Link } from './desktopMenu.styled';
 
@@ -12,21 +12,13 @@ export default function DesktopMenu() {
   return (
     <Container>
       <List>
-        <Item>
-          <Link href={Path.Home}>
-            {t('about')}
-          </Link>
-        </Item>
-        <Item>
-          <Link href={Path.CV}>
-            {t('cv')}
-          </Link>
-        </Item>
-        <Item>
-          <Link href={Path.Contact}>
-            {t('contact')}
-          </Link>
-        </Item>
+        {MenuItems.map((item) => (
+          <Item key={item.labelKey}>
+            <Link href={item.href}>
+              {t(item.labelKey)}
+            </Link>
+          </Item>
+        ))}
       </List>
     </Container>
   );

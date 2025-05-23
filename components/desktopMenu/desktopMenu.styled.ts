@@ -6,7 +6,7 @@ import { Breakpoint, Color } from '@/styles';
 export const Container = styled.nav`
   display: none;
 
-  ${Breakpoint.Mobile} {
+  ${Breakpoint.Tablet} {
     display: block;
   }
 `;
