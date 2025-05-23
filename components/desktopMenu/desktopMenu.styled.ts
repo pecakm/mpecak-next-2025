@@ -1,7 +1,9 @@
 import LinkNext from 'next/link';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import { Breakpoint, Color } from '@/styles';
+
+import { LinkProps } from './desktopMenu.types';
 
 export const Container = styled.nav`
   display: none;
@@ -23,7 +25,7 @@ export const Item = styled.li`
   display: block;
 `;
 
-export const Link = styled(LinkNext)`
+export const Link = styled(LinkNext)<LinkProps>`
   display: block;
   color: ${Color.Foreground};
   background-color: ${Color.Background};
@@ -37,4 +39,8 @@ export const Link = styled(LinkNext)`
   &:hover {
     background-color: ${Color.Border};
   }
+
+  ${({ $active }) => $active && css`
+    background-color: ${Color.Border};
+  `}
 `;
