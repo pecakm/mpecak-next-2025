@@ -43,21 +43,33 @@ export const NoWrap = styled.span`
   white-space: nowrap;
 `;
 
+const iconButtonStyles = css`
+  border-radius: calc(0.5rem - 2px);
+  color: ${Color.Foreground};
+  width: 2.5rem;
+  height: 2.5rem;
+  min-width: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: ${Color.Border};
+  }
+`;
+
 export const HeaderButton = styled(Button)`
   && {
     border: 1px solid ${Color.Border};
     background-color: ${Color.Background};
-    border-radius: calc(0.5rem - 2px);
-    color: ${Color.Foreground};
-    width: 2.5rem;
-    height: 2.5rem;
-    min-width: 0;
-    font-size: 16px;
-
-    &:hover {
-      background-color: ${Color.Border};
-    }
+    ${iconButtonStyles}
   }
+`;
+
+export const SocialLink = styled.a`
+  ${iconButtonStyles}
 `;
 
 const buttonStyles = css`

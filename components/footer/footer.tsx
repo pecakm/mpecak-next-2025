@@ -5,14 +5,13 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 import { Links } from '@/constants';
 
-import { ExternalLink } from '../common.styled';
+import { ExternalLink, SocialLink } from '../common.styled';
 
 import {
   Container,
   Text,
   Separator,
   SocialLinks,
-  SocialLink,
   Quote,
   Copyright,
 } from './footer.styled';

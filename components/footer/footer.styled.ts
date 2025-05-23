@@ -74,12 +74,3 @@ export const SocialLinks = styled.div`
   align-items: center;
   justify-content: center;
 `;
-
-export const SocialLink = styled.a`
-  color: ${Color.Foreground};
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
-`;
