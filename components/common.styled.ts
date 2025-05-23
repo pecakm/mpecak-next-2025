@@ -37,3 +37,7 @@ export const ExternalLink = styled.a`
     text-decoration: underline;
   }
 `;
+
+export const NoWrap = styled.span`
+  white-space: nowrap;
+`;

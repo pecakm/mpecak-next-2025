@@ -9,6 +9,25 @@
       "text": "Jestem obecnie dostępny do pracy freelance lub na inne formy współpracy"
     }
   },
+  "cvPage": {
+    "pageContent": {
+      "title": "Curriculum Vitae",
+      "description": "Przegląd mojego doświadczenia zawodowego, umiejętności i wykształcenia.",
+      "experience": "Doświadczenie",
+      "skills": "Umiejętności",
+      "languages": "Języki",
+      "education": "Wykształcenie",
+      "activities": "Aktywności",
+      "interests": "Zainteresowania"
+    },
+    "education": {
+      "specialization": "Specjalizacja:",
+      "degree": "Stopień:"
+    },
+    "languages": {
+      "level": "Poziom:"
+    }
+  },
   "contactPage": {
     "pageContent": {
       "title": "Kontakt",

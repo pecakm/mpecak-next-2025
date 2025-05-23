@@ -1,15 +1,11 @@
 import styled from 'styled-components';
 
 import { TextSmall } from '@/components';
-import { Color } from '@/styles';
+import { ItemStyles } from '@/styles';
 
 export const Container = styled.article`
+  ${ItemStyles}
   flex: 1;
-  background-color: ${Color.Background};
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  border: 1px solid ${Color.Border};
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   gap: 1.5rem;

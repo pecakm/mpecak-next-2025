@@ -1,6 +1,6 @@
 import { css } from 'styled-components';
 
-import { Breakpoint, ContainerWidth } from '@/styles';
+import { Breakpoint, Color, ContainerWidth } from '@/styles';
 
 export const ContainerStyles = css`
   width: 100%;
@@ -14,4 +14,12 @@ export const ContainerStyles = css`
     padding-left: 2rem;
     padding-right: 2rem;
   }
+`;
+
+export const ItemStyles = css`
+  background-color: ${Color.Background};
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid ${Color.Border};
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 `;
