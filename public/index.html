@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Refresh" content="0; url=/en" />
+    <meta charset="UTF-8" />
+    <title>Mikołaj Pęcak - Programowanie z pasji</title>
     <script>
-      window.location.href = "/en";
+      const userLang = navigator.language || navigator.userLanguage;
+      const lang = userLang.startsWith('pl') ? 'pl' : 'en';
+      window.location.href = `/${lang}`;
     </script>
-    <title>Redirecting...</title>
   </head>
   <body>
     <p>If you are not redirected automatically, follow this <a href="/en">link to English version</a>.</p>

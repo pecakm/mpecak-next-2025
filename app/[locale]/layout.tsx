@@ -11,7 +11,7 @@ import { StyledComponentsRegistry } from '@/lib/styled-components';
 import { theme } from '@/lib/mui';
 import { Header, Footer, BgAnim, PageTransition } from '@/components';
 import { routing } from '@/i18n';
-import { CountryCode } from '@/enums';
+import { CountryCode, Path } from '@/enums';
 
 import { Props } from './layout.types';
 
@@ -32,6 +32,13 @@ export const generateStaticParams = async () => {
 export const metadata: Metadata = {
   title: 'Mikołaj Pęcak',
   description: 'Mikołaj Pęcak - Programowanie z pasji',
+  alternates: {
+    canonical: Path.Home,
+    languages: {
+      [CountryCode.PL]: `/${CountryCode.PL}`,
+      [CountryCode.EN]: `/${CountryCode.EN}`,
+    },
+  },
 };
 
 async function getMessages(locale: string) {
