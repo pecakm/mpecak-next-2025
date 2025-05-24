@@ -11,6 +11,7 @@ import { StyledComponentsRegistry } from '@/lib/styled-components';
 import { theme } from '@/lib/mui';
 import { Header, Footer, BgAnim, PageTransition } from '@/components';
 import { routing } from '@/i18n';
+import { CountryCode, Path } from '@/enums';
 
 import { Props } from './layout.types';
 
@@ -19,10 +20,34 @@ const inter = Inter({
   subsets: ['latin'],
 });
 
+export const dynamic = 'force-static';
+
+export const generateStaticParams = async () => {
+  return [
+    { locale: CountryCode.PL },
+    { locale: CountryCode.EN },
+  ];
+};
+
 export const metadata: Metadata = {
   title: 'Mikołaj Pęcak',
   description: 'Mikołaj Pęcak - Programowanie z pasji',
+  alternates: {
+    canonical: Path.Home,
+    languages: {
+      [CountryCode.PL]: `/${CountryCode.PL}`,
+      [CountryCode.EN]: `/${CountryCode.EN}`,
+    },
+  },
 };
+
+async function getMessages(locale: string) {
+  try {
+    return (await import(`@/i18n/${locale}.json`)).default;
+  } catch {
+    notFound();
+  }
+}
 
 export default async function RootLayout({ children, params }: Props) {
   const { locale } = await params;
@@ -30,11 +55,13 @@ export default async function RootLayout({ children, params }: Props) {
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+
+  const messages = await getMessages(locale);
   
   return (
     <html lang={locale}>
       <body className={inter.className}>
-        <NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>
           <StyledComponentsRegistry>
             <AppRouterCacheProvider>
               <ThemeProvider theme={theme}>

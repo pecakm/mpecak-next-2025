@@ -1,3 +1,5 @@
+// Middleware is deprecated since I use Static Site Generation
+
 import createMiddleware from 'next-intl/middleware';
 
 import { routing } from '@/i18n';
