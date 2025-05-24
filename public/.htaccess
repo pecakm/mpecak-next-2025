@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Serve index.html for root
+DirectoryIndex index.html
+
+# Rewrite /en to /en.html
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^.]+)$ $1.html [L]
