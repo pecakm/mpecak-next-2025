@@ -1,3 +1,3 @@
 export * from './routing';
-export * from './navigation';
+export * from './navigation.deprecated';
 export * from './useLocalePath';
