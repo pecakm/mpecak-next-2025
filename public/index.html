@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mikołaj Pęcak - Programowanie z pasji</title>
+    <script>
+      const userLang = navigator.language || navigator.userLanguage;
+      const lang = userLang.startsWith('pl') ? 'pl' : 'en';
+      window.location.href = `/${lang}`;
+    </script>
+  </head>
+  <body>
+    <p>If you are not redirected automatically, follow this <a href="/en">link to English version</a>.</p>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+{
+  "homePage": {
+    "textContent": {
+      "title": "Cześć, nazywam się\n<highlight>Mikołaj Pęcak</highlight>",
+      "text": "Na co dzień jestem programistą z 7-letnim doświadczeniem komercyjnym. Rozwijam się przede wszystkim w kierunku <bold>tworzenia warstwy frontendowej aplikacji internetowych</bold> oraz mobilnych. Z wielką pasją spełniam się w moich zainteresowaniach, będąc jednocześnie właścicielem własnej marki <itpulse>IT Pulse</itpulse>, pod którą nawiązuję współprace freelance i nie tylko.\n\nDzięki pracowitości oraz determinacji nabytej podczas wielu lat kariery sportowej bardzo szybko czynię postępy <bold>w każdej działalności, której się podejmuję</bold>. Osiągając kolejne kamienie milowe, które sobie wyznaczam, z każdym dniem jestem coraz lepszym programistą oraz <bold>godnym zaufania przedsiębiorcą</bold>. Wierzę, że ciężka praca nad sobą popłaca, a małymi krokami dochodzi się do spektakularnych efektów.\n\nZapraszam do zapoznania się z moją osobą na tej stronie oraz na profilu <linkedin>LinkedIn</linkedin>."
+    },
+    "work": {
+      "title": "Współpraca",
+      "text": "Jestem obecnie dostępny do pracy freelance lub na inne formy współpracy"
+    },
+    "buttons": {
+      "contact": "Odezwij się",
+      "cv": "Zobacz CV"
+    }
+  },
+  "cvPage": {
+    "pageContent": {
+      "title": "Curriculum Vitae",
+      "description": "Przegląd mojego doświadczenia zawodowego, umiejętności i wykształcenia.",
+      "experience": "Doświadczenie",
+      "skills": "Umiejętności",
+      "languages": "Języki",
+      "education": "Wykształcenie",
+      "activities": "Aktywności",
+      "interests": "Zainteresowania",
+      "contact": "Bądźmy w kontakcie"
+    },
+    "experience": {
+      "mugTitle": "Frontend Developer",
+      "mugCompany": "MUG Software Sp. z o.o.",
+      "mugDate": "luty 2019 - marzec 2025",
+      "mugDescription": "- Projektowanie i implementacja responsywnych interfejsów użytkownika z wykorzystaniem biblioteki React\n- Współpraca z zespołem backendowym przy integracji REST API i optymalizacji przepływu danych\n- Tworzenie komponentów UI z wykorzystaniem TypeScript, styled-components oraz bibliotek takich jak Material UI.\n- Dbanie o wysoką jakość kodu poprzez code review\n- Aktywny udział w planowaniu sprintów, estymacjach i doskonaleniu procesów zespołowych\n- Współtworzenie design systemów\n- Mentoring młodszych członków zespołu i udział w rekrutacjach",
+      "moodUpTitle": "Junior iOS Developer",
+      "moodUpCompany": "Mood Up Sp. z o.o.",
+      "moodUpDate": "czerwiec 2017 - wrzesień 2018",
+      "moodUpDescription": "Tworzenie oraz rozwijanie aplikacji mobilnych na urządzenia z systemem iOS",
+      "amoTitle": "Inżynier wyścigowy",
+      "amoCompany": "AMO Racing Team",
+      "amoDate": "maj 2013 - październik 2016",
+      "amoDescription": "- Praca z młodymi zawodnikami w sporcie kartingowym\n- Mechanik\n- Trener\n- Analityk telemetrii",
+      "itpulseTitle": "Freelancer",
+      "itpulseCompany": "IT Pulse (samozatrudnienie)",
+      "itpulseDate": "maj 2018 - obecnie",
+      "itpulseDescription": "Tworzenie rozwiązań wykorzystujących technologię internetową zarówno po stronie frontendu, jak i backendu",
+      "ekTitle": "Pomocnik w sklepie internetowym",
+      "ekCompany": "Eurokarting S.C.",
+      "ekDate": "grudzień 2015 - styczeń 2016",
+      "ekDescription": "Wprowadzanie asortymentu firmy do sklepu internetowego oraz pomoc przy inwentaryzacji",
+      "ibTitle": "Student-praktykant",
+      "ibCompany": "Interbell Sp. z o.o.",
+      "ibDate": "czerwiec 2013 - lipiec 2013",
+      "ibDescription": "- Obsługa klienta w serwisie telefonów komórkowych\n- Pomoc w dziale księgowości\n- Prowadzenie profilu firmy na portalu Facebook"
+    },
+    "activities": {
+      "cdv1": "Członek komisji dyscyplinarnej CDV",
+      "cdv2": "Pomoc przy tworzeniu start-upowego projektu aplikacji internetowej z wykorzystaniem technologii Ruby on Rails oraz Angular2",
+      "al": "- Członek Automobilklubu Leszczyńskiego\n- Członek Kadry Narodowej w Sporcie Kartingowym w latach 2005 - 2010"
+    },
+    "education": {
+      "specialization": "Specjalizacja:",
+      "degree": "Stopień:",
+      "cdvInstitution": "Collegium Da Vinci",
+      "uepInstitution": "Uniwersytet Ekonomiczny w Poznaniu",
+      "cdvField": "Informatyka",
+      "uepField": "Zarządzanie",
+      "cdvSpecialization": "Aplikacje internetowe i mobilne",
+      "uepSpecialization": "Zarządzanie przedsiębiorstwami",
+      "cdvDegree": "Inżynier",
+      "uepDegree": "Licencjat"
+    },
+    "languages": {
+      "level": "Poziom:",
+      "polish": "Język polski",
+      "native": "Ojczysty",
+      "english": "Język angielski",
+      "b2": "B2"
+    },
+    "interests": {
+      "motorsport": "Motorsport",
+      "karting": "Karting",
+      "f1": "Formuła 1",
+      "cars": "Wyścigi samochodowe",
+      "speedway": "Żużel"
+    },
+    "skills": {
+      "frontend": "Frontend",
+      "backend": "Backend - podstawy",
+      "tools": "Narzędzia"
+    }
+  },
+  "contactPage": {
+    "pageContent": {
+      "title": "Kontakt",
+      "text": "Skontaktuj się ze mną w sprawie współpracy lub po prostu, żeby się przywitać 👋",
+      "info": {
+        "title": "Info",
+        "text": "Skontaktuj się ze mną bezpośrednio"
+      },
+      "social": {
+        "title": "Social media",
+        "text": "Odezwij się do mnie przez social media"
+      }
+    },
+    "infoItem": {
+      "email": "Email",
+      "phone": "Telefon",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "components": {
+    "header": {
+      "title": "<highlight>Mikołaj</highlight> Pęcak"
+    },
+    "menu": {
+      "about": "O mnie",
+      "cv": "CV",
+      "contact": "Kontakt"
+    },
+    "footer": {
+      "copyright": "Copyright © <itpulse>IT Pulse</itpulse> 2025",
+      "quote": "There is no place like 127.0.0.1 :)"
+    }
+  }
+}

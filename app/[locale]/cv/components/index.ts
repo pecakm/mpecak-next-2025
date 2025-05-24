@@ -1,0 +1,8 @@
+export { default as PageContent } from './pageContent/pageContent';
+export { default as Experience } from './experience/experience';
+export { default as Skills } from './skills/skills';
+export { default as Languages } from './languages/languages';
+export { default as Education } from './education/education';
+export { default as Activities } from './activities/activities';
+export { default as Interests } from './interests/interests';
+export { default as Section } from './section/section';
