@@ -31,7 +31,7 @@ export const skillsData = [
       'Next.js API Routes',
       'Socket.IO',
       'Iron Session',
-      'JWT Token',
+      'JWT',
     ],
   },
   {

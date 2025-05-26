@@ -15,8 +15,6 @@
   },
   "cvPage": {
     "pageContent": {
-      "title": "Curriculum Vitae",
-      "description": "Overview of my professional experience, skills, and education.",
       "experience": "Experience",
       "skills": "Skills",
       "languages": "Languages",
@@ -25,11 +23,16 @@
       "interests": "Interests",
       "contact": "Let's stay in touch"
     },
+    "header": {
+      "title": "Curriculum Vitae",
+      "description": "Overview of my professional experience, skills, and education.",
+      "download": "Download CV"
+    },
     "experience": {
       "mugTitle": "Frontend Developer",
       "mugCompany": "MUG Software Sp. z o.o.",
       "mugDate": "February 2019 - March 2025",
-      "mugDescription": "- Designing and implementing responsive user interfaces using React library\n- Collaborating with backend team on REST API integration and data flow optimization\n- Creating UI components using TypeScript, styled-components, and libraries such as Material UI\n- Maintaining high code quality through code review\n- Active participation in sprint planning, estimations, and team process improvements\n- Co-creating design systems\n- Mentoring junior team members and participating in recruitment",
+      "mugDescription": "- Managing the frontend team within the project\n- Collaborating with the backend team on REST API integration and data flow optimization\n- Active participation in sprint planning, estimations, and team process improvements\n- Co-creating design systems\n- Designing and implementing responsive user interfaces using React library\n- Creating UI components using TypeScript, styled-components, and libraries such as Material UI\n- Maintaining high code quality through code review and following best practices\n- Mentoring junior team members and participating in recruitment",
       "moodUpTitle": "Junior iOS Developer",
       "moodUpCompany": "Mood Up Sp. z o.o.",
       "moodUpDate": "June 2017 - September 2018",
