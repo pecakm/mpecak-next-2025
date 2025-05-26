@@ -17,7 +17,7 @@ export default function DesktopMenu() {
       <List>
         {MenuItems.map((item) => (
           <Item key={item.labelKey}>
-            <Link href={localePath(item.href)} $active={pathname === item.href}>
+            <Link href={localePath(item.href)} $active={pathname === localePath(item.href)}>
               {t(item.labelKey)}
             </Link>
           </Item>

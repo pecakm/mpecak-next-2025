@@ -35,7 +35,7 @@ export default function MobileMenu() {
             <ListItem key={item.labelKey}>
               <Link
                 href={localePath(item.href)}
-                $active={pathname === item.href}
+                $active={pathname === localePath(item.href)}
                 onClick={onClose}
               >
                 {t(item.labelKey)}
