@@ -15,8 +15,6 @@
   },
   "cvPage": {
     "pageContent": {
-      "title": "Curriculum Vitae",
-      "description": "Przegląd mojego doświadczenia zawodowego, umiejętności i wykształcenia.",
       "experience": "Doświadczenie",
       "skills": "Umiejętności",
       "languages": "Języki",
@@ -25,11 +23,16 @@
       "interests": "Zainteresowania",
       "contact": "Bądźmy w kontakcie"
     },
+    "header": {
+      "title": "Curriculum Vitae",
+      "description": "Przegląd mojego doświadczenia zawodowego, umiejętności i wykształcenia.",
+      "download": "Pobierz CV"
+    },
     "experience": {
       "mugTitle": "Frontend Developer",
       "mugCompany": "MUG Software Sp. z o.o.",
       "mugDate": "luty 2019 - marzec 2025",
-      "mugDescription": "- Projektowanie i implementacja responsywnych interfejsów użytkownika z wykorzystaniem biblioteki React\n- Współpraca z zespołem backendowym przy integracji REST API i optymalizacji przepływu danych\n- Tworzenie komponentów UI z wykorzystaniem TypeScript, styled-components oraz bibliotek takich jak Material UI.\n- Dbanie o wysoką jakość kodu poprzez code review\n- Aktywny udział w planowaniu sprintów, estymacjach i doskonaleniu procesów zespołowych\n- Współtworzenie design systemów\n- Mentoring młodszych członków zespołu i udział w rekrutacjach",
+      "mugDescription": "- Zarządzanie zespołem frontendowym w ramach projektu\n- Współpraca z zespołem backendowym przy integracji REST API i optymalizacji przepływu danych\n- Aktywny udział w planowaniu sprintów, estymacjach i doskonaleniu procesów zespołowych\n- Współtworzenie design systemów\n- Projektowanie i implementacja responsywnych interfejsów użytkownika z wykorzystaniem biblioteki React\n- Tworzenie komponentów UI z wykorzystaniem TypeScript, styled-components oraz bibliotek takich jak Material UI\n- Dbanie o wysoką jakość kodu poprzez code review oraz stosowanie dobrych praktyk\n- Mentoring młodszych członków zespołu i udział w rekrutacjach",
       "moodUpTitle": "Junior iOS Developer",
       "moodUpCompany": "Mood Up Sp. z o.o.",
       "moodUpDate": "czerwiec 2017 - wrzesień 2018",
@@ -41,7 +44,7 @@
       "itpulseTitle": "Freelancer",
       "itpulseCompany": "IT Pulse (samozatrudnienie)",
       "itpulseDate": "maj 2018 - obecnie",
-      "itpulseDescription": "Tworzenie rozwiązań wykorzystujących technologię internetową zarówno po stronie frontendu, jak i backendu",
+      "itpulseDescription": "Tworzenie rozwiązań wykorzystujących technologię internetową zarówno po stronie frontendu, jak i backendu zgodnie z wymaganiami klienta",
       "ekTitle": "Pomocnik w sklepie internetowym",
       "ekCompany": "Eurokarting S.C.",
       "ekDate": "grudzień 2015 - styczeń 2016",

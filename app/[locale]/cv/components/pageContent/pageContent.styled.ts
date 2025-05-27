@@ -17,12 +17,6 @@ export const Container = styled.main`
   }
 `;
 
-export const Header = styled.section`
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-`;
-
 export const StyledButton = styled(PrimaryButton)`
   && {
     margin-top: 2rem;
