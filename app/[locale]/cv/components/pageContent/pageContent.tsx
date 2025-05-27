@@ -3,8 +3,6 @@
 import { useTranslations } from 'next-intl';
 import { ArrowRight } from 'lucide-react';
 
-import { PageTitle, Text } from '@/components';
-
 import Experience from '../experience/experience';
 import Skills from '../skills/skills';
 import Languages from '../languages/languages';
@@ -12,18 +10,16 @@ import Education from '../education/education';
 import Activities from '../activities/activities';
 import Interests from '../interests/interests';
 import Section from '../section/section';
+import Header from '../header/header';
 
-import { Container, Header, StyledButton } from './pageContent.styled';
+import { Container, StyledButton } from './pageContent.styled';
 
 export default function PageContent() {
   const t = useTranslations('cvPage.pageContent');
 
   return (
     <Container>
-      <Header>
-        <PageTitle>{t('title')}</PageTitle>
-        <Text>{t('description')}</Text>
-      </Header>
+      <Header />
       <Section title={t('experience')}>
         <Experience />
       </Section>

@@ -16,6 +16,7 @@ export const skillsData = [
       'Responsive Design',
       'React Hook Form',
       'Zod',
+      'Storybook',
       'React Testing Library',
       'CRA',
       'Vite',
@@ -31,7 +32,7 @@ export const skillsData = [
       'Next.js API Routes',
       'Socket.IO',
       'Iron Session',
-      'JWT Token',
+      'JWT',
     ],
   },
   {

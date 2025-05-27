@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# cv
+public/mikolaj-pecak-cv-pl-website.pdf
+public/mikolaj-pecak-cv-en-website.pdf

@@ -6,3 +6,4 @@ export { default as Education } from './education/education';
 export { default as Activities } from './activities/activities';
 export { default as Interests } from './interests/interests';
 export { default as Section } from './section/section';
+export { default as Header } from './header/header';
