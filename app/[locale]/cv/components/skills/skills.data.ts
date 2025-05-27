@@ -16,6 +16,7 @@ export const skillsData = [
       'Responsive Design',
       'React Hook Form',
       'Zod',
+      'Storybook',
       'React Testing Library',
       'CRA',
       'Vite',
