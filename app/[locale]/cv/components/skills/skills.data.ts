@@ -39,6 +39,7 @@ export const skillsData = [
     titleKey: 'tools',
     items: [
       'Git',
+      'Cursor AI',
       'Figma',
       'Jira',
       'Firebase',
