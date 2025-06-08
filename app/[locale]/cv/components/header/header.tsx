@@ -17,7 +17,7 @@ export default function Header() {
         <Text>{t('description')}</Text>
       </Content>
       <ExternalLink
-        href="/mikolaj-pecak-cv-pl-website.pdf"
+        href="/mikolaj-pecak-cv-en-website.pdf"
         target="_blank"
         rel="noopener noreferrer"
       >
