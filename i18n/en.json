@@ -83,12 +83,23 @@
       "karting": "Karting",
       "f1": "Formula 1",
       "cars": "Car Racing",
-      "speedway": "Speedway"
+      "padel": "Padel"
     },
     "skills": {
       "frontend": "Frontend",
       "backend": "Backend - basics",
       "tools": "Tools"
+    }
+  },
+  "portfolioPage": {
+    "pageContent": {
+      "title": "Portfolio",
+      "text": "Here you can find some of my projects",
+      "more": "View more on GitHub"
+    },
+    "item": {
+      "moodTrackerTitle": "Mood Tracker",
+      "moodTrackerDescription": "Mood Tracker is a web application that allows you to track your mood and your mood history."
     }
   },
   "contactPage": {
@@ -118,6 +129,7 @@
     "menu": {
       "about": "About",
       "cv": "CV",
+      "portfolio": "Portfolio",
       "contact": "Contact"
     },
     "footer": {

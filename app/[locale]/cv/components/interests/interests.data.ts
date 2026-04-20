@@ -3,5 +3,5 @@ export const interestsData = [
   'f1',
   'cars',
   'karting',
-  'speedway',
+  'padel',
 ];

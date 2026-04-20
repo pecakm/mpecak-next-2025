@@ -1,15 +1,15 @@
 export const experienceData = [
   {
-    titleKey: 'mugTitle',
-    companyKey: 'mugCompany',
-    dateKey: 'mugDate',
-    descriptionKey: 'mugDescription',
-  },
-  {
     titleKey: 'itpulseTitle',
     companyKey: 'itpulseCompany',
     dateKey: 'itpulseDate',
     descriptionKey: 'itpulseDescription',
+  },
+  {
+    titleKey: 'mugTitle',
+    companyKey: 'mugCompany',
+    dateKey: 'mugDate',
+    descriptionKey: 'mugDescription',
   },
   {
     titleKey: 'moodUpTitle',

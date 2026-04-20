@@ -10,6 +10,10 @@ export const MenuItems = [
     href: Path.CV,
   },
   {
+    labelKey: 'portfolio',
+    href: Path.Portfolio,
+  },
+  {
     labelKey: 'contact',
     href: Path.Contact,
   },

@@ -83,12 +83,23 @@
       "karting": "Karting",
       "f1": "Formuła 1",
       "cars": "Wyścigi samochodowe",
-      "speedway": "Żużel"
+      "padel": "Padel"
     },
     "skills": {
       "frontend": "Frontend",
       "backend": "Backend - podstawy",
       "tools": "Narzędzia"
+    }
+  },
+  "portfolioPage": {
+    "pageContent": {
+      "title": "Portfolio",
+      "text": "Tutaj możesz zobaczyć niektóre z moich projektów",
+      "more": "Zobacz więcej na GitHub"
+    },
+    "item": {
+      "moodTrackerTitle": "Mood Tracker",
+      "moodTrackerDescription": "Mood Tracker to aplikacja internetowa, która pozwala śledzić Twój nastrój oraz historię Twojego samopoczucia."
     }
   },
   "contactPage": {
@@ -118,6 +129,7 @@
     "menu": {
       "about": "O mnie",
       "cv": "CV",
+      "portfolio": "Portfolio",
       "contact": "Kontakt"
     },
     "footer": {
