@@ -99,7 +99,9 @@
     },
     "item": {
       "moodTrackerTitle": "Mood Tracker",
-      "moodTrackerDescription": "Mood Tracker is a web application that allows you to track your mood and your mood history."
+      "moodTrackerDescription": "Mood Tracker is a web application that allows you to track your mood and your mood history.",
+      "pagerTitle": "Pager",
+      "pagerDescription": "Pager is a PWA web application, using Push Notifications to send notifications about new messages."
     }
   },
   "contactPage": {
