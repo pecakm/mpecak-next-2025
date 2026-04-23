@@ -11,6 +11,7 @@ import {
   Container,
   ImageWrapper,
   Content,
+  StyledLink,
   StyledTextSmall,
   Tags,
   Tag,
@@ -22,11 +23,13 @@ export default function Item({ titleKey, descriptionKey, image, tags, link, gith
 
   return (
     <Container>
-      <ImageWrapper>
+      <ImageWrapper href={link} target="_blank" rel="noopener noreferrer">
         <Image src={image} alt={t(titleKey)} width={800} height={454} />
       </ImageWrapper>
       <Content>
-        <ArticleTitle>{t(titleKey)}</ArticleTitle>
+        <StyledLink href={link} target="_blank" rel="noopener noreferrer">
+          <ArticleTitle>{t(titleKey)}</ArticleTitle>
+        </StyledLink>
         <StyledTextSmall>
           {t(descriptionKey)}
         </StyledTextSmall>

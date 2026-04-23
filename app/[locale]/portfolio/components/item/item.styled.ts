@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styled from 'styled-components';
 
 import { TextSmall } from '@/components';
@@ -5,11 +6,14 @@ import { Color, ItemStyles } from '@/styles';
 
 export const Container = styled.li`
   ${ItemStyles}
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0;
   overflow: hidden;
 `;
 
-export const ImageWrapper = styled.div`
+export const ImageWrapper = styled(Link)`
   position: relative;
   width: 100%;
   aspect-ratio: 319 / 181;
@@ -28,8 +32,18 @@ export const ImageWrapper = styled.div`
 
 export const Content = styled.div`
   display: flex;
+  flex: 1;
   flex-direction: column;
   padding: 1.5rem;
+`;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 export const StyledTextSmall = styled(TextSmall)`
@@ -54,6 +68,7 @@ export const Tag = styled.li`
 `;
 
 export const ExternalLinks = styled.div`
+  margin-top: auto;
   display: flex;
   align-items: center;
   justify-content: flex-end;
