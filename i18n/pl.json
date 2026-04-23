@@ -99,7 +99,9 @@
     },
     "item": {
       "moodTrackerTitle": "Mood Tracker",
-      "moodTrackerDescription": "Mood Tracker to aplikacja internetowa, która pozwala śledzić Twój nastrój oraz historię Twojego samopoczucia."
+      "moodTrackerDescription": "Mood Tracker to aplikacja internetowa, która pozwala śledzić Twój nastrój oraz historię Twojego samopoczucia.",
+      "pagerTitle": "Pager",
+      "pagerDescription": "Pager to aplikacja internetowa PWA, wykorzystująca technologię Push Notifications do wysyłania powiadomień o nowych wiadomościach."
     }
   },
   "contactPage": {

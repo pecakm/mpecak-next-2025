@@ -13,7 +13,7 @@ export const ImageWrapper = styled.div`
   position: relative;
   width: 100%;
   aspect-ratio: 319 / 181;
-  background-color: #fff;
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
