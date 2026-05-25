@@ -15,4 +15,12 @@ export const listData = [
     link: 'https://pager.mpecak.pl',
     github: 'https://github.com/pecakm/pager-2026',
   },
+  {
+    titleKey: 'dilemmaTitle',
+    descriptionKey: 'dilemmaDescription',
+    image: '/images/portfolio/dilemma.webp',
+    tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'React Hook Form', 'Zod', 'Supabase Realtime'],
+    link: 'https://dylematy.mpecak.pl',
+    github: 'https://github.com/pecakm/dilemma-2026',
+  },
 ];
