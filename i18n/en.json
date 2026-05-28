@@ -103,7 +103,9 @@
       "pagerTitle": "Pager",
       "pagerDescription": "Pager is a PWA web application, using Push Notifications to send notifications about new messages.",
       "dilemmaTitle": "Dilemmas",
-      "dilemmaDescription": "A party game where you together answer difficult moral questions using a smartphone as a controller."
+      "dilemmaDescription": "A party game where you together answer difficult moral questions using a smartphone as a controller.",
+      "walkieTalkieTitle": "WalkieTalkie",
+      "walkieTalkieDescription": "A PWA web application that allows you to make voice calls using WebRTC."
     }
   },
   "contactPage": {

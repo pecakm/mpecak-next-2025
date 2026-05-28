@@ -103,7 +103,9 @@
       "pagerTitle": "Pager",
       "pagerDescription": "Pager to aplikacja internetowa PWA, wykorzystująca technologię Push Notifications do wysyłania powiadomień o nowych wiadomościach.",
       "dilemmaTitle": "Dylematy",
-      "dilemmaDescription": "Gra towarzyska, w której wspólnie odpowiadacie na trudne pytania moralne za pomocą smartfona jako kontrolera."
+      "dilemmaDescription": "Gra towarzyska, w której wspólnie odpowiadacie na trudne pytania moralne za pomocą smartfona jako kontrolera.",
+      "walkieTalkieTitle": "WalkieTalkie",
+      "walkieTalkieDescription": "Aplikacja internetowa PWA, która pozwala na rozmowy głosowe za pomocą WebRTC."
     }
   },
   "contactPage": {

@@ -11,7 +11,7 @@ export const listData = [
     titleKey: 'pagerTitle',
     descriptionKey: 'pagerDescription',
     image: '/images/portfolio/pager.webp',
-    tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'React Hook Form', 'Zod', 'PostgreSQL', 'Prisma', 'Auth.js', 'Push Notifications'],
+    tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'React Hook Form', 'Zod', 'PostgreSQL', 'Prisma', 'Auth.js', 'PWA', 'Push Notifications'],
     link: 'https://pager.mpecak.pl',
     github: 'https://github.com/pecakm/pager-2026',
   },
@@ -22,5 +22,13 @@ export const listData = [
     tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'React Hook Form', 'Zod', 'Supabase Realtime'],
     link: 'https://dylematy.mpecak.pl',
     github: 'https://github.com/pecakm/dilemma-2026',
+  },
+  {
+    titleKey: 'walkieTalkieTitle',
+    descriptionKey: 'walkieTalkieDescription',
+    image: '/images/portfolio/walkietalkie.webp',
+    tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'WebRTC', 'PWA', 'Voice Chat'],
+    link: 'https://walkietalkie.mpecak.pl',
+    github: 'https://github.com/pecakm/walkie-talkie-2026',
   },
 ];
