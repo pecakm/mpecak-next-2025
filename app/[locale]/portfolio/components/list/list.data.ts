@@ -8,6 +8,14 @@ export const listData = [
     github: 'https://github.com/pecakm/mood-tracker-2026',
   },
   {
+    titleKey: 'cardTitle',
+    descriptionKey: 'cardDescription',
+    image: '/images/portfolio/card.webp',
+    tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'React Hook Form', 'Zod', 'PartyKit'],
+    link: 'https://highest-card.mpecak.pl',
+    github: 'https://github.com/pecakm/highest-card-2026',
+  },
+  {
     titleKey: 'pagerTitle',
     descriptionKey: 'pagerDescription',
     image: '/images/portfolio/pager.webp',

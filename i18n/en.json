@@ -100,6 +100,8 @@
     "item": {
       "moodTrackerTitle": "Mood Tracker",
       "moodTrackerDescription": "Mood Tracker is a web application that allows you to track your mood and your mood history.",
+      "cardTitle": "Highest Card",
+      "cardDescription": "A quick bluff-and-guess card game you can play with friends in the same room or online.",
       "pagerTitle": "Pager",
       "pagerDescription": "Pager is a PWA web application, using Push Notifications to send notifications about new messages.",
       "dilemmaTitle": "Dilemmas",

@@ -23,6 +23,8 @@ export const ImageWrapper = styled(Link)`
   justify-content: center;
 
   img {
+    display: block;
+    aspect-ratio: 319 / 181;
     width: 100%;
     height: auto;
     object-fit: contain;
