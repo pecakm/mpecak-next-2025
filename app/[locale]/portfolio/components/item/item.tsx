@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { ExternalLink, Github } from 'lucide-react';
+import { Tooltip } from '@mui/material';
 
 import { ArticleTitle, SocialLink } from '@/components';
 
@@ -42,9 +43,21 @@ export default function Item({ titleKey, descriptionKey, image, tags, link, gith
           <SocialLink href={link} target="_blank" rel="noopener noreferrer">
             <ExternalLink size={16} />
           </SocialLink>
-          <SocialLink href={github} target="_blank" rel="noopener noreferrer">
-            <Github size={16} />
-          </SocialLink>
+          {github ? (
+            <SocialLink href={github} target="_blank" rel="noopener noreferrer">
+              <Github size={16} />
+            </SocialLink>
+          ) : (
+            <Tooltip
+              title={t('privateRepository')}
+              enterTouchDelay={0}
+              leaveTouchDelay={3000}
+            >
+              <SocialLink as="span" tabIndex={0}>
+                <Github size={16} />
+              </SocialLink>
+            </Tooltip>
+          )}
         </ExternalLinks>
       </Content>
     </Container>

@@ -1,9 +1,16 @@
 export const listData = [
   {
+    titleKey: 'pingPingTitle',
+    descriptionKey: 'pingPingDescription',
+    image: '/images/portfolio/pingping.webp',
+    tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'Tanstack Query', 'React Hook Form', 'Zod', 'PostgreSQL', 'Prisma', 'PWA', 'Push Notifications'],
+    link: 'https://pingping.mpecak.pl',
+  },
+  {
     titleKey: 'moodTrackerTitle',
     descriptionKey: 'moodTrackerDescription',
     image: '/images/portfolio/mood-tracker.webp',
-    tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'React Hook Form', 'Zod', 'PostgreSQL', 'Prisma', 'Auth.js'],
+    tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'Tanstack Query', 'React Hook Form', 'Zod', 'PostgreSQL', 'Prisma', 'Auth.js'],
     link: 'https://moodtracker.mpecak.pl',
     github: 'https://github.com/pecakm/mood-tracker-2026',
   },
@@ -19,7 +26,7 @@ export const listData = [
     titleKey: 'pagerTitle',
     descriptionKey: 'pagerDescription',
     image: '/images/portfolio/pager.webp',
-    tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'React Hook Form', 'Zod', 'PostgreSQL', 'Prisma', 'Auth.js', 'PWA', 'Push Notifications'],
+    tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'React Hook Form', 'Tanstack Query', 'Zod', 'PostgreSQL', 'Prisma', 'Auth.js', 'PWA', 'Push Notifications'],
     link: 'https://pager.mpecak.pl',
     github: 'https://github.com/pecakm/pager-2026',
   },
