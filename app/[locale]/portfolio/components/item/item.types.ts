@@ -4,5 +4,5 @@ export type Props = {
   image: string;
   tags: string[];
   link: string;
-  github: string;
+  github?: string;
 };
