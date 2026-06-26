@@ -1,10 +1,10 @@
 export const listData = [
   {
-    titleKey: 'pingPingTitle',
-    descriptionKey: 'pingPingDescription',
-    image: '/images/portfolio/pingping.webp',
+    titleKey: 'pingletTitle',
+    descriptionKey: 'pingletDescription',
+    image: '/images/portfolio/pinglet.webp',
     tags: ['React', 'Next.js', 'Styled Components', 'Material UI', 'Tanstack Query', 'React Hook Form', 'Zod', 'PostgreSQL', 'Prisma', 'PWA', 'Push Notifications'],
-    link: 'https://pingping.mpecak.pl',
+    link: 'https://pinglet.cloud',
   },
   {
     titleKey: 'moodTrackerTitle',

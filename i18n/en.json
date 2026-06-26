@@ -99,8 +99,8 @@
     },
     "item": {
       "privateRepository": "Production project. The repository is private.",
-      "pingPingTitle": "PingPing",
-      "pingPingDescription": "Instant push alerts for your AI automations. Connect Make.com, n8n, Zapier, or any tool that can send HTTP requests. PingPing delivers notifications straight to your phone — no app store required.",
+      "pingletTitle": "Pinglet",
+      "pingletDescription": "Instant push alerts for your AI automations. Connect Make.com, n8n, Zapier, or any tool that can send HTTP requests. Pinglet delivers notifications straight to your phone — no app store required.",
       "moodTrackerTitle": "Mood Tracker",
       "moodTrackerDescription": "Mood Tracker is a web application that allows you to track your mood and your mood history.",
       "cardTitle": "Highest Card",

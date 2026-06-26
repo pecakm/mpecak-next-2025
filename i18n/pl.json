@@ -99,8 +99,8 @@
     },
     "item": {
       "privateRepository": "Projekt produkcyjny. Repozytorium jest prywatne.",
-      "pingPingTitle": "PingPing",
-      "pingPingDescription": "Powiadomienia push dla Twoich automatyzacji AI. Połącz Make.com, n8n, Zapier lub dowolne narzędzie, które może wysyłać żądania HTTP. PingPing dostarcza powiadomienia prosto na Twój telefon - bez konieczności instalowania aplikacji ze sklepu.",
+      "pingletTitle": "Pinglet",
+      "pingletDescription": "Powiadomienia push dla Twoich automatyzacji AI. Połącz Make.com, n8n, Zapier lub dowolne narzędzie, które może wysyłać żądania HTTP. Pinglet dostarcza powiadomienia prosto na Twój telefon - bez konieczności instalowania aplikacji ze sklepu.",
       "moodTrackerTitle": "Mood Tracker",
       "moodTrackerDescription": "Mood Tracker to aplikacja internetowa, która pozwala śledzić Twój nastrój oraz historię Twojego samopoczucia.",
       "cardTitle": "Highest Card",
