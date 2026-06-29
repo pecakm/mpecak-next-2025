@@ -1,9 +1,8 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Download } from 'lucide-react';
 
-import { ExternalLink, PageTitle, PrimaryButton, Text } from '@/components';
+import { PageTitle, Text } from '@/components';
 
 import { Container, Content } from './header.styled';
 
@@ -16,16 +15,6 @@ export default function Header() {
         <PageTitle>{t('title')}</PageTitle>
         <Text>{t('description')}</Text>
       </Content>
-      <ExternalLink
-        href="/mikolaj-pecak-cv-en-website.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <PrimaryButton>
-          <Download size={16} />
-          {t('download')}
-        </PrimaryButton>
-      </ExternalLink>
     </Container>
   );
 }

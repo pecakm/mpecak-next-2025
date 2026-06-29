@@ -18,7 +18,6 @@ export const skillsData = [
       'Zod',
       'Storybook',
       'React Testing Library',
-      'CRA',
       'Vite',
     ],
   },
